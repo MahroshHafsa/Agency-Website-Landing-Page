@@ -1,40 +1,102 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Navbar Section Start -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
         <img src="images/Logo.png" alt="Logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"  href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
-        </li>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
           </a>
-        <button class="btn button btn-outline-info" type="submit">Contact us</button>
+          <button class="btn button btn-outline-info" type="submit">Contact us</button>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar Section End -->
+  <!-- Hero Section Start -->
+  <div class="row flex-lg-row-reverse container-fluid align-items-center color g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img src="images/Hero_IMG.png" class="d-block mx-lg-auto man img-fluid" alt="Bootstrap Themes" width="700"
+        height="500" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Experienced <span class=" text">mobile and web</span>
+        applications and website builders measuring.</h1>
+      <p class="lead">KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website
+        builders measuring
+        dozens of completed projects. We build and develop mobile applications for several top platforms, including
+        Android & IOS. .</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contact Us</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">View More</button>
+      </div>
     </div>
   </div>
-</nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+  <!-- Hero Section End -->
+  <!-- Cards Section Start -->
+  <div class="row row-cols-1 row-cols-sm-2 g-4">
+    <div class="col d-flex flex-column gap-2">
+      <div
+        class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+       </div>
+       <img src="images/Web_Application.png" alt="" class="">
+      <h4 class="fw-semibold mb-0 text-body-emphasis">Web Application</h4>
+      <p class="text-body-secondary">Lorem Ipsum is simply.</p>
+    </div>
+    <div class="col d-flex flex-column gap-2">
+      <div
+        class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+        </div>
+      <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+      <p class="text-body-secondary">Lorem Ipsum is simply.</p>
+    </div>
+    <div class="col d-flex flex-column gap-2">
+      <div
+        class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+        </div>
+      <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+      <p class="text-body-secondary">Lorem Ipsum is simply</p>
+    </div>
+    <div class="col d-flex flex-column gap-2">
+      <div
+        class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+        </div>
+      <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+      <p class="text-body-secondary">Lorem Ipsum is simply</p>
+    </div>
+  </div>
+  <!-- Cards Section End -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
